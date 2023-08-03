@@ -126,7 +126,59 @@ section {
     border: 1.5px solid var(--bg-color);
 }
 
+/* About Me Section */
 
+.section_aboutme {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
 
+.aboutme_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.aboutme_text h2 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+.aboutme_text p {
+    letter-spacing: 2px;
+}
+
+.aboutme_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 80%;
+}
+
+.content_text {
+    text-align: center;
+}
+
+.content_icons {
+    margin-left: 10%;
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    text-align: start;
+}
+
+.content_icons i {
+    color: var(--blue-option);
+    margin-right: 2%;
+}
 
 /* FOOTER */
