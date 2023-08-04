@@ -151,7 +151,7 @@ section {
 }
 
 .aboutme_text p {
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
 }
 
 .aboutme_content {
@@ -179,6 +179,65 @@ section {
 .content_icons i {
     color: var(--blue-option);
     margin-right: 2%;
+}
+
+
+/* Skills Section */
+
+.section_skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.skills_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.skills_text h2 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+.skills_text p {
+    letter-spacing: 0.5px;
+}
+
+.skills_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.skills_icons div {
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 250ms ease-in;
+    color: var(--bg-color);
+}
+
+.skills_icons img {
+    width: 100px;
+    height: 105px;
+}
+
+.skills_icons div:hover{
+    background-color: #14181e;
+    cursor: pointer;
+    transform: scale(1.1);
+    color: var(--text-color)
 }
 
 /* FOOTER */
