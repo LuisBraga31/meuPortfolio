@@ -220,7 +220,7 @@ section {
 .skills_icons div {
     background-color: var(--bg-color);
     border-radius: 8px;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,7 +237,105 @@ section {
     background-color: #14181e;
     cursor: pointer;
     transform: scale(1.1);
-    color: var(--text-color)
+    color: var(--blue-option);
+}
+
+/* Projects Section */
+
+.section_projects {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 5rem;
+}
+
+.projects_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.projects_text h2 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+.projects_text p {
+    letter-spacing: 0.5px;
+}
+
+/* slides */
+
+.slide {
+    width: 520px;
+    height: 325px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+
+.slides {
+    width: 2080px;
+    display: flex;
+}
+
+.image img {
+    width: 520px;
+    height: 325px;
+}
+
+#atual {
+    transition: all 2s;
+}
+
+.btn {
+    position: absolute;
+    color: var(--text-color);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.7em;
+    margin-top: -5px;
+}
+
+.btn:hover {
+    transform: scale(1.5);
+}
+
+.balls {
+    padding-top: 60px;
+    
+    position: absolute;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+}
+
+.balls div {
+    transition: all 0.25s;
+    border: 3px solid #fff;
+    padding: 4px;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.balls div:hover {
+    background: #fff;
+}
+
+.imgAtual {
+    background: #fff;
 }
 
 /* FOOTER */
