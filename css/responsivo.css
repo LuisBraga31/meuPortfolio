@@ -1,3 +1,4 @@
+/* Diferentes Telas */
 @media (max-width:1030px) {
 
    .header_logo {
@@ -46,4 +47,55 @@
 }
 
 @media (max-width:700px) {
+}
+
+/* Mobile */
+@media (max-width:515px) {
+    section {
+        padding: 1rem;
+    }
+
+    .introduction_text h1 {
+        font-size: 2.2rem;
+    }
+    
+    .introduction_text p {
+        font-size: 0.75rem;
+    }
+
+    .introduction_text a {
+        padding: 0.25rem 1.3rem;
+        font-size: 0.75rem;
+    }
+    .content_icons {
+        width: 100%;
+    }
+    .content_icons p {
+
+        font-size:0.8rem;
+    }
+
+    .introduction_image img{
+        width: 300px;
+    }
+    
+    .header_nav {
+        display: none;
+    }
+
+    .contacts {
+        gap: 80px;
+    }
+    
+
+    .projects {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(276px, 1fr));;
+        align-items: center;
+        justify-items: center;
+        gap: 30px;
+    }
+
+    
 }
