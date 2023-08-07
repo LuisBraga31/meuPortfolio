@@ -278,17 +278,17 @@ section {
 }
 
 .projects {
-    width: 100%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(376px, 1fr));;
     align-items: center;
     justify-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .project_item {
     width: 376px;
-    height: 316px;
+    height: 346px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -299,10 +299,15 @@ section {
     border: 1px solid var(--blue-option);
 }
 
-.project_item img{
+.project_item h4 {
+    font-size: 1.3rem;
+}
+
+.project_item img {
     padding: 1rem;
     width: 376px;
-    height: 326px;
+    height: 256px;
+    border-radius: 35px;
 }
 
 .buttons_project {
