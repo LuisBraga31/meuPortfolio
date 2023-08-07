@@ -269,73 +269,55 @@ section {
     letter-spacing: 0.5px;
 }
 
-/* slides */
-
-.slide {
-    width: 520px;
-    height: 325px;
-    overflow: hidden;
-    border-radius: 15px;
-    transition: all 0.4s;
-}
-
-.slides {
-    width: 2080px;
-    display: flex;
-}
-
-.image img {
-    width: 520px;
-    height: 325px;
-}
-
-#atual {
-    transition: all 2s;
-}
-
-.btn {
-    position: absolute;
-    color: var(--text-color);
-    padding: 10px;
-    text-align: center;
-    display: flex;
+.projects {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(376px, 1fr));;
     align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.4s;
-    font-size: 1.7em;
-    margin-top: -5px;
+    justify-items: center;
+    gap: 50px;
 }
 
-.btn:hover {
-    transform: scale(1.5);
-}
-
-.balls {
-    padding-top: 60px;
-    
-    position: absolute;
-    width: 520px;
+.project_item {
+    width: 376px;
+    height: 316px;
     display: flex;
-    justify-content: center;
-    margin-top: -45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid var(--blue-option);
 }
 
-.balls div {
-    transition: all 0.25s;
-    border: 3px solid #fff;
-    padding: 4px;
-    border-radius: 50%;
-    margin-left: 15px;
+.project_item img{
+    padding: 1rem;
+    width: 376px;
+    height: 326px;
+}
+
+.buttons_project {
+    display: flex;
+    gap: 40px;
+}
+
+.buttons_project a {
+    background-color: var(--bg-color2);
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: 1px solid var(--blue-option);
     cursor: pointer;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all 250ms ease-in;
 }
 
-.balls div:hover {
-    background: #fff;
+.buttons_project a:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+    color: var(--blue-option);
 }
 
-.imgAtual {
-    background: #fff;
-}
 
 /* FOOTER */
