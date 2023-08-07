@@ -249,7 +249,7 @@ section {
 
 .skills_icons {
     width: 70%;
-
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));;
     align-items: center;

@@ -1,0 +1,49 @@
+@media (max-width:1030px) {
+
+   .header_logo {
+        margin-right: 1%;
+    }
+
+}
+
+@media (max-width:984px) {
+
+    .aboutme_content {
+        width: 100%;
+    }
+    .content_icons {
+        width: 90%;
+        margin-left: 10%;
+    }
+    .header_logo h2 {
+        font-size: 1.6rem;
+    }
+
+    .header_nav {
+        gap: 3rem;
+    }
+
+    .header_nav a{
+        font-size: 0.9rem;
+    }
+ 
+}
+
+@media (max-width:768px) {
+
+    .section_introduction {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .introduction_text {
+        width: 90%;
+        justify-content: center;
+
+    }
+
+ 
+}
+
+@media (max-width:700px) {
+}
