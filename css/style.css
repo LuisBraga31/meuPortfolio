@@ -327,5 +327,45 @@ section {
     color: var(--blue-option);
 }
 
+/* Contacts Section */
+
+.section_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 5rem;
+}
+
+.contacts_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.contacts_text h2 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+.contacts {
+    display: flex;
+    gap: 150px;
+}
+
+.contacts a {
+    color: var(--text-color);
+    font-size: 3rem;
+    transition: all 250ms ease-in;
+}
+
+.contacts a:hover {
+    color: var(--blue-option);
+    font-size: 3rem;
+    transform: scale(1.2);
+}
 
 /* FOOTER */
