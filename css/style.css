@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 * {
     padding: 0;
@@ -38,12 +39,19 @@ header {
 
 .header_logo {
     margin-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
-.header_logo img {
-    width: 100%;
-    max-width: 180px;
-    
+.header_logo h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+}
+
+.header_logo strong {
+    color: var(--blue-option);
 }
 
 .header_nav {
