@@ -180,3 +180,33 @@
 
     
 }
+
+/*Mini*/
+
+@media (max-width:376px) {
+
+    .section_projects {
+        padding: 25px 0px;
+    }
+
+    .project_item {
+        width: 276px;
+        height: 286px;
+    }
+    
+    .project_item h4 {
+        font-size: 1.1rem;
+    }
+    
+    .project_item img {
+        width: 276px;
+        height: 176px;
+    }
+
+    .buttons_project a {
+        padding: 8px 18px;
+        font-size: 0.9rem;
+    }
+
+    
+}
