@@ -85,6 +85,10 @@ header {
     border-bottom: 2.5px solid var(--blue-option);  
 }
 
+.header_menuHamb {
+    display: none;
+}
+
 
 /* MAIN */
 
