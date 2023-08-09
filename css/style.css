@@ -10,6 +10,7 @@
 :root {
     --bg-color: #1f242d;
     --bg-color2: #323946;
+    --bg-color3: #1c2027;
     --blue-option: #00abf0;
     --text-color: #fff;
 }
@@ -326,6 +327,8 @@ section {
 }
 
 .project_item {
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
+    background-color: var(--bg-color3);
     width: 376px;
     height: 346px;
     display: flex;
@@ -335,7 +338,7 @@ section {
 
     padding: 1rem;
     border-radius: 15px;
-    border: 1px solid var(--blue-option);
+
 }
 
 .project_item h4 {
