@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/responsivo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title> Portfólio | Luis Braga Dev </title>
 </head>
 <body>
@@ -119,14 +120,14 @@
             
         </section>
 
-        <section id="projects" class="section_projects">
+        <section id="projects" class="section_projects" >
             
             <div class="projects_text"> 
                 <h2> Projetos </h2>
                 <p> Alguns de meus projetos pessoais </p>
             </div>
 
-            <div class="projects">
+            <div class="projects" data-aos="fade-right">
     
                 <div class="project_item">
                     <h4> Hamburger Shop </h4>
@@ -218,5 +219,11 @@
 
     <script type="module" src="js/script.js"></script>
     <script type="module" src="js/menuHamb.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> 
+        AOS.init({
+            duration: 2600,
+        }); 
+    </script>
 </body>
 </html>
