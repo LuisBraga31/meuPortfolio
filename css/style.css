@@ -143,6 +143,7 @@ section {
     color: var(--blue-option);
 }
 .introduction_text strong {
+
     color: var(--blue-option);
 }
 
@@ -166,7 +167,6 @@ section {
 
 .introduction_image img{
     border-radius: 500px;
-    border: 1.5px solid var(--bg-color);
 }
 
 /* About Me Section */
@@ -414,6 +414,7 @@ section {
     color: var(--blue-option);
     font-size: 3rem;
     transform: scale(1.2);
+    filter: drop-shadow(0 0 5px var(--blue-option));
 }
 
 /* FOOTER */
