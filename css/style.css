@@ -407,14 +407,21 @@ section {
 .contacts a {
     color: var(--text-color);
     font-size: 3rem;
-    transition: all 250ms ease-in;
+    transition: all 0.8s;
+
+}
+
+.contacts i {
+    background-color: var(--bg-color);
+    padding: 16px;
+    border-radius: 15px;
 }
 
 .contacts a:hover {
+    stroke: var(--blue-option);
     color: var(--blue-option);
-    font-size: 3rem;
-    transform: scale(1.2);
-    filter: drop-shadow(0 0 5px var(--blue-option));
+    transform: rotateY(360deg) scale(1.3);
+    stroke-width: 1.75;
 }
 
 /* FOOTER */
