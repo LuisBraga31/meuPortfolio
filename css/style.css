@@ -405,22 +405,20 @@ section {
 }
 
 .contacts a {
-    color: var(--text-color);
+    color: #000;
     font-size: 3rem;
     transition: all 0.8s;
 
 }
 
 .contacts i {
-    background-color: var(--bg-color);
     padding: 16px;
-    border-radius: 15px;
 }
 
 .contacts a:hover {
     stroke: var(--blue-option);
     color: var(--blue-option);
-    transform: rotateY(360deg) scale(1.3);
+    transform:  scale(1.3);
     stroke-width: 1.75;
 }
 
