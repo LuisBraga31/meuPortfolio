@@ -129,18 +129,19 @@ section {
 
 .introduction_text a {
     text-decoration: none;
-    color: var(--text-color);
-    padding: 0.75rem 2rem;
+    color: var(--blue-option);
+    padding: 0.45rem 2rem;
     background-color: #1f242d;
     border-radius: 8px;
     border: 2px solid transparent;
     transition: all 200ms ease-in;
+    font-size: 1.2rem;
 }
 
 .introduction_text a:hover {
     background-color: transparent;
     border: 2px solid var(--bg-color);
-    color: var(--blue-option);
+
 }
 .introduction_text strong {
 
@@ -374,6 +375,30 @@ section {
     transform: scale(1.1);
     color: var(--blue-option);
 }
+
+.projects_seeMore {
+    margin-top: 20px;
+}
+
+.projects_seeMore a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--bg-color2);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--blue-option);
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    transition: all 200ms ease-in;
+    font-size: 1.2rem;
+}
+
+.projects_seeMore a:hover {
+    background-color: transparent;
+    border: 2px solid var(--bg-color2);
+}
+
 
 /* Contacts Section */
 
