@@ -373,7 +373,7 @@ section {
 .buttons_project a:hover {
     background-color: transparent;
     border: 1px solid var(--bg-color2);
-    transform: scale(1.1);
+
     color: var(--blue-option);
 }
 
