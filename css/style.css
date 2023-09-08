@@ -168,6 +168,7 @@ section {
 
 .introduction_image img{
     border-radius: 500px;
+    max-width: 375px;
 }
 
 /* About Me Section */
