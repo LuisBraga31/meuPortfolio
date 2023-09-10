@@ -442,14 +442,24 @@ section {
 
 .contacts {
     display: flex;
-    gap: 150px;
+    gap: 100px;
 }
 
-.contacts a {
+.contact_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_item a {
     color: var(--bg-color3);
     font-size: 3rem;
     transition: all 0.8s;
+}
 
+.contact_item p {
+    font-size: 0.7rem;
+    color: var(--bg-color3);
 }
 
 .contacts i {
@@ -459,7 +469,7 @@ section {
 .contacts a:hover {
     stroke: var(--blue-option);
     color: var(--blue-option);
-    transform:  scale(1.3);
+    transform:  scale(1.2);
     stroke-width: 1.75;
 }
 

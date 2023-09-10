@@ -131,6 +131,15 @@
 }
 
 /* Mobile */
+
+@media(max-width:595px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
 @media (max-width:515px) {
     section {
         padding: 1rem;
@@ -163,11 +172,6 @@
     .header_nav {
         display: none;
     }
-
-    .contacts {
-        gap: 80px;
-    }
-    
 
     .projects {
         width: 80%;
