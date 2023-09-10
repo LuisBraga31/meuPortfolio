@@ -191,7 +191,6 @@
 
     .project_item {
         width: 276px;
-        height: 286px;
     }
     
     .project_item h4 {
@@ -203,8 +202,12 @@
         height: 176px;
     }
 
+    .project_info {
+        width: 276px;
+    }
+
     .buttons_project a {
-        padding: 8px 18px;
+        padding: 4px 14px;
         font-size: 0.9rem;
     }
 

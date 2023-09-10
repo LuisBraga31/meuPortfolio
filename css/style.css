@@ -75,7 +75,7 @@ header {
 
 .header_nav a{
     color: var(--text-color);
-    font-weight: 2rem;
+    font-size: 1.2rem;
     text-decoration: none;
     transition: all 200ms ease-in;
     border: 2.5px solid transparent;
@@ -322,7 +322,7 @@ section {
 .projects {
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(376px, 1fr));;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));;
     align-items: center;
     justify-items: center;
     gap: 30px;
@@ -331,32 +331,42 @@ section {
 .project_item {
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
     background-color: var(--bg-color3);
-    width: 376px;
-    height: 356px;
+    width: 325px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
-
-    padding: 1rem;
     border-radius: 15px;
-
-}
-
-.project_item h4 {
-    font-size: 1.3rem;
-    color: var(--blue-option);
 }
 
 .project_item img {
-    padding: 1rem;
-    width: 376px;
-    height: 256px;
-    border-radius: 35px;
+    padding: 0.8rem;
+    width: 325px;
+    height: 226px;
 }
+
+.project_info {
+    width: 325px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project_info h4 {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;   
+}
+
+.project_info p {
+    font-size: 0.85rem;
+    text-align: justify;
+    height: 90px;
+}
+
 
 .buttons_project {
     display: flex;
+    justify-content: center;
     gap: 40px;
 }
 
