@@ -13,6 +13,7 @@
     --bg-color3: #1c2027;
     --blue-option: #00abf0;
     --text-color: #fff;
+    --text-gray: #9f9f9f;
 }
 
 ::-webkit-scrollbar {
@@ -286,7 +287,6 @@ section {
 .skills_icons div:hover{
     background-color: #14181e;
     cursor: pointer;
-
     color: var(--blue-option);
 }
 
@@ -335,7 +335,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .project_item img {
@@ -358,16 +358,16 @@ section {
 }
 
 .project_info p {
-    font-size: 0.85rem;
+    color: var(--text-gray);
+    font-size: 0.8rem;
     text-align: justify;
     height: 90px;
 }
 
-
 .buttons_project {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .buttons_project a {
@@ -381,10 +381,13 @@ section {
     transition: all 250ms ease-in;
 }
 
+.buttons_project i {
+    padding-right: 3px;
+}
+
 .buttons_project a:hover {
     background-color: transparent;
     border: 1px solid var(--bg-color2);
-
     color: var(--blue-option);
 }
 
@@ -399,7 +402,7 @@ section {
     background-color: var(--bg-color2);
     border-radius: 8px;
     text-decoration: none;
-    color: var(--blue-option);
+    color: var(--text-color);
     padding: 0.5rem 1rem;
     border: 2px solid transparent;
     transition: all 200ms ease-in;
@@ -409,6 +412,7 @@ section {
 .projects_seeMore a:hover {
     background-color: transparent;
     border: 2px solid var(--bg-color2);
+    color: var(--blue-option);
 }
 
 
