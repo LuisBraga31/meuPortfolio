@@ -91,6 +91,10 @@ header {
     display: none;
 }
 
+.header_menuHamb i {
+    cursor: pointer;
+}
+
 
 /* MAIN */
 
