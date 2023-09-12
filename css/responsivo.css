@@ -1,4 +1,13 @@
 /* Diferentes Telas */
+
+@media (max-width:1120px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
 @media (max-width:1030px) {
 
    .header_logo {
