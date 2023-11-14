@@ -270,7 +270,7 @@ section {
     width: 70%;
     
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     align-items: center;
     justify-items: center;
     justify-content: center;
@@ -333,7 +333,7 @@ section {
 .projects {
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     align-items: center;
     justify-items: center;
     gap: 30px;
